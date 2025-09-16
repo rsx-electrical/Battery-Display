@@ -1,4 +1,4 @@
-1 [E2213QS0F1](https://www.digikey.ca/en/products/detail/pervasive-displays/E2213QS0F1/20685862) <br>
+1 White display [E2206KS0E1](https://www.digikey.ca/en/products/detail/pervasive-displays/E2206KS0E1/22514285) <br>
 1 [2-84952-4](https://www.digikey.ca/en/products/detail/te-connectivity-amp-connectors/2-84952-4/2180527) <br>
 3 [SS2040FL_R1_00001](https://www.digikey.ca/en/products/detail/panjit-international-inc/SS2040FL-R1-00001/14660034)<br>
 1 [RTF025N03TL](https://www.digikey.ca/en/products/detail/rohm-semiconductor/RTF025N03TL/721622)<br>
