@@ -13,7 +13,7 @@ OR 24 pin FPC connector as specified in datasheet [FH34SRJ-24S-0-5SH-99](https:/
 1 0.1uF/16V<br>
 1 4.7uF/25V<br>
 1 10uH/0.8A/480mOhm Max (you can try this ig: [SRP3012TA-100M](https://www.digikey.ca/en/products/detail/bourns-inc/SRP3012TA-100M/9350975))<br>
-1 0.47R
+1 0.47R <br>
 ~~1 MCU PIC16LF19155~~ --> too hard lol <br>
 1 arduino every for spi (up to 20Mhz - spi ok) <br>
 1 arduino nano (up to 16Mhz - spi ok) <br>
