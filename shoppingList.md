@@ -20,5 +20,8 @@ OR 24 pin FPC connector as specified in datasheet [FH34SRJ-24S-0-5SH-99](https:/
 1 raspberry pi pico --> 3.3V power + logic; 65Mhz max spi 
 
 https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf <br>
+https://www.onsemi.com/pdf/datasheet/ntr4003n-d.pdf <br>
+https://www.diodes.com/assets/Datasheets/DMN6140L.pdf <br>
+NMOS: [ZXM61N03FCT-ND](https://www.diodes.com/assets/Datasheets/ZXM61N03F.pdf)   Coco likes <br>
 
 LDO/BUCK
