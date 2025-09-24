@@ -24,4 +24,6 @@ NMOS: [ZXM61N03FCT-ND](https://www.diodes.com/assets/Datasheets/ZXM61N03F.pdf)  
 NMOS opt2: [785-1005-1-ND](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1063/AO3406.pdf) <br>
 
 1 raspberry pi pico --> 3.3V power + logic; 65Mhz max spi <br>
-LDO/BUCK
+BUCK (not recommended): [PDS1-S12-S5-S](https://www.digikey.ca/en/products/detail/bel-power-solutions/PDS1-S12-S5-S/4009664?s=N4IgTCBcDaIAoBEDKBGAtKsGCsGQF0BfIA) Isolated Module DC DC Converter 1 Output 5V 200mA 10.8V - 13.2V Input (ON 3S) - In garage <br> 
+LDO: [497-6447-1-ND](https://www.digikey.ca/en/products/detail/stmicroelectronics/LD1117S50TR/1038360) IC REG LINEAR 5V 800MA SOT-223 <br>
+ 
