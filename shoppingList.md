@@ -16,14 +16,9 @@ OR 24 pin FPC connector as specified in datasheet [FH34SRJ-24S-0-5SH-99](https:/
 1 0.47R <br>
 <br>
 
-~~1 MCU PIC16LF19155~~ --> too hard lol <br>
-~~1 arduino every for spi (up to 20Mhz - spi ok)~~ --> need 12-7V VIN <br>
-~~1 arduino nano (up to 16Mhz - spi ok)~~ --. need 5V VIN <br>
-
 NMOS: [ZXM61N03FCT-ND](https://www.diodes.com/assets/Datasheets/ZXM61N03F.pdf)   Coco likes <br>
 NMOS opt2: [785-1005-1-ND](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1063/AO3406.pdf) <br>
 
 1 raspberry pi pico --> 3.3V power + logic; 65Mhz max spi <br>
-BUCK (not recommended): [PDS1-S12-S5-S](https://www.digikey.ca/en/products/detail/bel-power-solutions/PDS1-S12-S5-S/4009664?s=N4IgTCBcDaIAoBEDKBGAtKsGCsGQF0BfIA) Isolated Module DC DC Converter 1 Output 5V 200mA 10.8V - 13.2V Input (ON 3S) - In garage <br> 
-LDO: [497-6447-1-ND](https://www.digikey.ca/en/products/detail/stmicroelectronics/LD1117S50TR/1038360) IC REG LINEAR 5V 800MA SOT-223 <br>
+3.3V 1A LDO: [NCP1117LPST33T3GOSCT-ND](https://www.digikey.ca/en/products/detail/onsemi/NCP1117LPST33T3G/2194024) <br>
  
