@@ -2600,6 +2600,12 @@
 		)
 	)
 	(junction
+		(at 208.28 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bef9f60-8706-4aa8-b9bf-ba777d39cbdb")
+	)
+	(junction
 		(at 186.69 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2637,13 +2643,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 67.31) (xy 228.6 72.39)
+			(xy 217.17 57.15) (xy 217.17 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1227250b-fb8e-4dab-a10d-9c9e1f2127c7")
+		(uuid "0fcc4f06-f899-43e7-881a-7e74ea9c6efd")
 	)
 	(wire
 		(pts
@@ -2664,6 +2670,26 @@
 			(type default)
 		)
 		(uuid "2c267687-2133-4ead-abb5-c3ed0d1b1633")
+	)
+	(wire
+		(pts
+			(xy 217.17 59.69) (xy 238.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c411f6d-1079-43ba-b50a-c3948503b657")
+	)
+	(wire
+		(pts
+			(xy 200.66 62.23) (xy 208.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406e1533-ac0d-4733-930b-cf00a4d4c935")
 	)
 	(wire
 		(pts
@@ -2787,6 +2813,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 67.31) (xy 190.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900be7ed-8965-416c-b10c-3ef5ea5a9636")
+	)
+	(wire
+		(pts
 			(xy 186.69 116.84) (xy 210.82 116.84)
 		)
 		(stroke
@@ -2794,6 +2830,16 @@
 			(type default)
 		)
 		(uuid "91916b69-e7b0-403f-8942-a766ed538e5a")
+	)
+	(wire
+		(pts
+			(xy 190.5 62.23) (xy 193.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed01f14-1bae-40f5-8658-ffc74f046bdd")
 	)
 	(wire
 		(pts
@@ -2837,6 +2883,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 67.31) (xy 238.76 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87549d1-b826-47c0-b370-d331e2068259")
+	)
+	(wire
+		(pts
 			(xy 186.69 116.84) (xy 186.69 138.43)
 		)
 		(stroke
@@ -2847,23 +2903,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 72.39) (xy 229.87 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb004536-56db-4518-8e68-439f95cd1167")
-	)
-	(wire
-		(pts
-			(xy 215.9 59.69) (xy 238.76 59.69)
+			(xy 215.9 57.15) (xy 217.17 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d4bffb1f-5df5-47e2-97ab-fd89f8b77759")
+	)
+	(wire
+		(pts
+			(xy 190.5 67.31) (xy 190.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da58c886-50e7-4073-af03-d14ba92edf6e")
 	)
 	(wire
 		(pts
@@ -2884,6 +2940,16 @@
 			(type default)
 		)
 		(uuid "f453a4f4-3e1a-40fc-98f6-9e578207fedd")
+	)
+	(wire
+		(pts
+			(xy 208.28 62.23) (xy 238.76 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f637c9e2-81e2-4399-a847-84ab09203ee0")
 	)
 	(symbol
 		(lib_id "rsx_Capacitors:1u")
@@ -3077,7 +3143,7 @@
 	)
 	(symbol
 		(lib_id "rsx_Resistors:0.47R")
-		(at 196.85 80.01 90)
+		(at 196.85 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3086,7 +3152,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c206146-23b6-41b9-a4bd-644c29107c2e")
 		(property "Reference" "R1"
-			(at 196.85 73.66 90)
+			(at 196.85 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3160,7 @@
 			)
 		)
 		(property "Value" "0.47R"
-			(at 196.85 76.2 90)
+			(at 196.85 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3168,7 @@
 			)
 		)
 		(property "Footprint" "rsx_resistors:R_1206_3216Metric"
-			(at 196.85 81.788 90)
+			(at 196.85 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3177,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/Resource%20Library/Datasheet/PYU-RL_GROUP_521_ROHS_L.pdf"
-			(at 196.85 80.01 0)
+			(at 196.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3186,7 @@
 			)
 		)
 		(property "Description" "RES 0.47 OHM 1% 1/4W 1206"
-			(at 196.85 80.01 0)
+			(at 196.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3195,7 @@
 			)
 		)
 		(property "MFR" "  YAGEO"
-			(at 196.85 80.01 0)
+			(at 196.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3204,7 @@
 			)
 		)
 		(property "DPN" "311-.47LWCT-ND"
-			(at 196.85 80.01 0)
+			(at 196.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3213,7 @@
 			)
 		)
 		(property "MPN" "RL1206FR-070R47L"
-			(at 196.85 80.01 0)
+			(at 196.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +3764,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:ZXM61N03F")
-		(at 210.82 59.69 0)
+		(at 210.82 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3707,7 +3773,7 @@
 		(dnp no)
 		(uuid "a70100d9-db79-4a36-8f65-8ebd64944b39")
 		(property "Reference" "Q1"
-			(at 204.47 60.9601 0)
+			(at 214.884 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +3782,7 @@
 			)
 		)
 		(property "Value" "ZXM61N03F"
-			(at 204.47 58.4201 0)
+			(at 214.884 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +3791,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 205.74 61.595 0)
+			(at 205.74 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +3802,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXM61N03F.pdf"
-			(at 205.74 63.5 0)
+			(at 205.74 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,7 +3812,7 @@
 			)
 		)
 		(property "Description" "1.4A Id, 30V Vds, N-Channel MOSFET, SOT-23"
-			(at 210.82 59.69 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
