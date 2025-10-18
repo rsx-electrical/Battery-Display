@@ -2202,6 +2202,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 67.31) (xy 228.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1227250b-fb8e-4dab-a10d-9c9e1f2127c7")
+	)
+	(wire
+		(pts
 			(xy 238.76 109.22) (xy 172.72 109.22)
 		)
 		(stroke
@@ -2322,16 +2332,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 69.85) (xy 233.68 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d2374f9-93bc-4585-9de0-f8913e05c39b")
-	)
-	(wire
-		(pts
 			(xy 207.01 93.98) (xy 236.22 93.98)
 		)
 		(stroke
@@ -2412,13 +2412,23 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 67.31) (xy 238.76 67.31)
+			(xy 228.6 72.39) (xy 229.87 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9c7e39a-cd9e-4fbc-89c0-514e72145a84")
+		(uuid "cb004536-56db-4518-8e68-439f95cd1167")
+	)
+	(wire
+		(pts
+			(xy 215.9 59.69) (xy 238.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4bffb1f-5df5-47e2-97ab-fd89f8b77759")
 	)
 	(wire
 		(pts
@@ -3253,7 +3263,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:ZXM61N03F")
-		(at 213.36 59.69 0)
+		(at 210.82 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3262,7 +3272,7 @@
 		(dnp no)
 		(uuid "a70100d9-db79-4a36-8f65-8ebd64944b39")
 		(property "Reference" "Q1"
-			(at 207.01 60.9601 0)
+			(at 204.47 60.9601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3281,7 @@
 			)
 		)
 		(property "Value" "ZXM61N03F"
-			(at 207.01 58.4201 0)
+			(at 204.47 58.4201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +3290,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 208.28 61.595 0)
+			(at 205.74 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +3301,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXM61N03F.pdf"
-			(at 208.28 63.5 0)
+			(at 205.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +3311,7 @@
 			)
 		)
 		(property "Description" "1.4A Id, 30V Vds, N-Channel MOSFET, SOT-23"
-			(at 213.36 59.69 0)
+			(at 210.82 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,16 +3505,15 @@
 	)
 	(symbol
 		(lib_id "rsx_Capacitors:1u")
-		(at 229.87 69.85 90)
+		(at 224.79 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cfe9777e-753b-44c8-91d1-8c8135347e44")
 		(property "Reference" "C1"
-			(at 229.87 62.23 90)
+			(at 227.33 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3521,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 229.87 64.77 90)
+			(at 227.33 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +3529,7 @@
 			)
 		)
 		(property "Footprint" "rsx_capacitors:C_0805_2012Metric"
-			(at 233.68 68.8848 0)
+			(at 228.6 66.3448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3538,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 69.85 0)
+			(at 224.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3547,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 50V X7R 0805"
-			(at 229.87 69.85 0)
+			(at 224.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3556,7 @@
 			)
 		)
 		(property "MFR" "Samsung Electro-Mechanics"
-			(at 229.87 69.85 0)
+			(at 224.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3565,7 @@
 			)
 		)
 		(property "DPN" "1276-1029-1-ND"
-			(at 229.87 69.85 0)
+			(at 224.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3574,7 @@
 			)
 		)
 		(property "MPN" "CL21B105KBFNNNE"
-			(at 229.87 69.85 0)
+			(at 224.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
