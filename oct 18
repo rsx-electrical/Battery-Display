@@ -1,0 +1,18 @@
+Oct 18/25
+Need to replace the raspberry pico with a cheap arduino
+Arduino can take max 5 V so regulator can be max 5V lowk?
+Screen runs on 3.2-3.6 V, so arduino can output 3.3V from the board directly, through the on board voltage regulator!
+Arduino Nano Every can also output 5 V from usb connection?!
+Another option is Arduino Nano R4
+needs to tolerate more than 500mA
+
+TO DO
+- Add arduino nano every to schematic and connect to screen
+In new project folder
+Battery connector (added component into rsx_headers)
+On/off button
+*coco will add the schematic symbol for the on/off button 
+
+
+Next steps: turn into PCB 
+
