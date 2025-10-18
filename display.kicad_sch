@@ -2054,13 +2054,7 @@
 		(uuid "596a280e-9122-4b6e-a824-6b77384f469d")
 	)
 	(junction
-		(at 200.66 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68fb279e-a5b6-45e7-ae98-45eb073894e0")
-	)
-	(junction
-		(at 142.24 96.52)
+		(at 146.05 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73ed5067-06b5-4464-8166-e05f9d734ecd")
@@ -2096,13 +2090,7 @@
 		(uuid "bd4a190f-b2b6-40ea-950a-046536d7e38c")
 	)
 	(junction
-		(at 170.18 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bff3388b-2915-4f55-bc54-19c5bf0a5299")
-	)
-	(junction
-		(at 142.24 114.3)
+		(at 146.05 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c43e28ae-26ec-42a9-83ae-0322749dac49")
@@ -2112,6 +2100,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5ddb1eb-7655-424a-941e-33ec6b2d4e8e")
+	)
+	(junction
+		(at 170.18 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb8071cf-3a14-4c65-a6d5-43d82335e8bd")
 	)
 	(junction
 		(at 195.58 106.68)
@@ -2207,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 93.98) (xy 142.24 96.52)
+			(xy 146.05 93.98) (xy 146.05 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2217,13 +2211,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 127) (xy 200.66 127)
+			(xy 170.18 127) (xy 170.18 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e3bcf29-f7fe-4758-8e99-fbb0829af287")
+		(uuid "30943781-d562-4078-add3-2c336e99a7e2")
 	)
 	(wire
 		(pts
@@ -2247,7 +2241,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 128.27) (xy 142.24 134.62)
+			(xy 146.05 128.27) (xy 146.05 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2277,7 +2271,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 114.3) (xy 142.24 114.3)
+			(xy 133.35 114.3) (xy 146.05 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 120.65) (xy 129.54 114.3)
+			(xy 133.35 120.65) (xy 133.35 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 96.52) (xy 142.24 114.3)
+			(xy 146.05 96.52) (xy 146.05 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 128.27) (xy 129.54 134.62)
+			(xy 133.35 128.27) (xy 133.35 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2401,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 96.52) (xy 152.4 96.52)
+			(xy 146.05 96.52) (xy 154.94 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2457,7 +2451,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 93.98) (xy 233.68 93.98)
+			(xy 146.05 93.98) (xy 233.68 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2517,7 +2511,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 96.52) (xy 170.18 96.52)
+			(xy 162.56 96.52) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2557,6 +2551,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 127) (xy 200.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9bc43c6-47d1-479b-b73d-190799fc927c")
+	)
+	(wire
+		(pts
 			(xy 213.36 106.68) (xy 195.58 106.68)
 		)
 		(stroke
@@ -2564,16 +2568,6 @@
 			(type default)
 		)
 		(uuid "c0cd7d3f-ac9e-41b1-94c2-6791eb504fd3")
-	)
-	(wire
-		(pts
-			(xy 170.18 127) (xy 170.18 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c27a70ab-392f-48ee-aa98-c97e7c39d2b8")
 	)
 	(wire
 		(pts
@@ -2627,16 +2621,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 127) (xy 203.2 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8dc573c-0ed0-4e93-8430-f12b1f26e0be")
-	)
-	(wire
-		(pts
 			(xy 195.58 99.06) (xy 195.58 101.6)
 		)
 		(stroke
@@ -2667,7 +2651,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 114.3) (xy 142.24 120.65)
+			(xy 90.17 109.22) (xy 90.17 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba9621f-f90a-48b3-b7de-68b2d2eacc9a")
+	)
+	(wire
+		(pts
+			(xy 146.05 114.3) (xy 146.05 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2797,10 +2791,10 @@
 			)
 		)
 		(property "Value" "SS2040FL_R1_00001"
-			(at 182.88 138.938 90)
+			(at 177.292 139.192 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -3155,7 +3149,7 @@
 			(at 205.994 130.81 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -3205,7 +3199,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 134.62 0)
+		(at 133.35 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3214,7 +3208,7 @@
 		(fields_autoplaced yes)
 		(uuid "2598b926-1bf3-473e-ac4a-dc7531c79bcd")
 		(property "Reference" "#PWR06"
-			(at 129.54 140.97 0)
+			(at 133.35 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 139.7 0)
+			(at 133.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +3225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 134.62 0)
+			(at 133.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +3234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 134.62 0)
+			(at 133.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +3243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 134.62 0)
+			(at 133.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3331,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 134.62 0)
+		(at 146.05 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3346,7 +3340,7 @@
 		(fields_autoplaced yes)
 		(uuid "30f6c509-9a23-4481-abd7-1dbc07681db0")
 		(property "Reference" "#PWR05"
-			(at 142.24 140.97 0)
+			(at 146.05 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +3349,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 139.7 0)
+			(at 146.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 134.62 0)
+			(at 146.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 134.62 0)
+			(at 146.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 134.62 0)
+			(at 146.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +3397,7 @@
 	)
 	(symbol
 		(lib_id "rsx_Capacitors:0u1")
-		(at 129.54 124.46 0)
+		(at 133.35 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3411,7 +3405,7 @@
 		(dnp no)
 		(uuid "35e23e9b-3971-4376-9698-7d75c04314a3")
 		(property "Reference" "C10"
-			(at 129.794 122.174 0)
+			(at 133.604 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3414,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 130.048 127 0)
+			(at 133.858 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3423,7 @@
 			)
 		)
 		(property "Footprint" "rsx_capacitors:C_0603_1608Metric"
-			(at 130.5052 128.27 0)
+			(at 134.3152 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3432,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 124.46 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3441,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 129.54 124.46 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3450,7 @@
 			)
 		)
 		(property "MFR" "TDK Corporation"
-			(at 129.54 124.46 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +3459,7 @@
 			)
 		)
 		(property "DPN" "445-1314-1-ND"
-			(at 129.54 124.46 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +3468,7 @@
 			)
 		)
 		(property "MPN" "C1608X7R1H104K080AA"
-			(at 129.54 124.46 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3818,7 @@
 	)
 	(symbol
 		(lib_id "rsx_inductors:10uH SRP3012TA-100M")
-		(at 156.21 96.52 90)
+		(at 158.75 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3832,7 +3826,7 @@
 		(dnp no)
 		(uuid "9b2976fd-a57c-4f29-8925-f3d8156b57f9")
 		(property "Reference" "SRP3012TA-100M1"
-			(at 156.21 98.552 90)
+			(at 158.75 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3834,7 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 156.21 101.092 90)
+			(at 158.75 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3842,7 @@
 			)
 		)
 		(property "Footprint" "rsx_inductors:IND_SRP3012TA_BRN"
-			(at 143.51 93.98 0)
+			(at 146.05 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3851,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP3012TA.pdf"
-			(at 138.43 96.52 0)
+			(at 140.97 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3860,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 10UH 1A 550 MOHM SMD"
-			(at 156.21 96.52 0)
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3869,7 @@
 			)
 		)
 		(property "MFR" "Bourns Inc."
-			(at 144.78 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3878,7 @@
 			)
 		)
 		(property "DPN" "SRP3012TA-100MCT-ND"
-			(at 142.24 93.98 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3887,7 @@
 			)
 		)
 		(property "MPN" "SRP3012TA-100M"
-			(at 139.7 93.98 0)
+			(at 142.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,6 +4057,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 90.17 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8885cbd-a8ca-4300-9737-2daccab1fb60")
+		(property "Reference" "#PWR07"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "023c9ba4-8cd9-4be1-b7ed-72ddb7821d55")
+		)
+		(instances
+			(project "display"
+				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 224.79 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4129,7 +4189,7 @@
 	)
 	(symbol
 		(lib_id "rsx_Capacitors:4u7")
-		(at 142.24 124.46 0)
+		(at 146.05 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4137,7 +4197,7 @@
 		(dnp no)
 		(uuid "bee10d7f-b4c9-4076-bddb-9fd0f86f3cbe")
 		(property "Reference" "C9"
-			(at 142.748 122.174 0)
+			(at 146.558 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4206,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 142.494 127 0)
+			(at 146.304 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +4215,7 @@
 			)
 		)
 		(property "Footprint" "rsx_capacitors:C_0805_2012Metric"
-			(at 143.2052 128.27 0)
+			(at 147.0152 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4224,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 124.46 0)
+			(at 146.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +4233,7 @@
 			)
 		)
 		(property "Description" "CAP CER 4.7UF 35V X7R 0805"
-			(at 142.24 124.46 0)
+			(at 146.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +4242,7 @@
 			)
 		)
 		(property "MFR" "Murata Electronics"
-			(at 142.24 124.46 0)
+			(at 146.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4251,7 @@
 			)
 		)
 		(property "DPN" "490-GRM21BZ7YA475KE15KCT-ND"
-			(at 142.24 124.46 0)
+			(at 146.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +4260,7 @@
 			)
 		)
 		(property "MPN" "GRM21BZ7YA475KE15K"
-			(at 142.24 124.46 0)
+			(at 146.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
