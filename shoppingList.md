@@ -23,3 +23,4 @@ NMOS opt2: [785-1005-1-ND](https://mm.digikey.com/Volume0/opasdata/d220001/media
 3.3V 1A LDO: [NCP1117LPST33T3GOSCT-ND](https://www.digikey.ca/en/products/detail/onsemi/NCP1117LPST33T3G/2194024) <br>
  
 EPD library (https://github.com/peterhinch/micropython-epaper?utm_source=chatgpt.com)
+button 2-1825910-7
