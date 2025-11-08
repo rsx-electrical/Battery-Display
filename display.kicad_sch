@@ -5241,7 +5241,7 @@
 			)
 		)
 	)
-	(global_label "GP12 - Pin 11 DC"
+	(global_label "GP12 - Pin 10 RST"
 		(shape input)
 		(at 35.56 107.95 180)
 		(fields_autoplaced yes)
@@ -5253,7 +5253,7 @@
 		)
 		(uuid "2239706c-cf2b-4775-9fcf-f1e75822c30b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.1902 107.95 0)
+			(at 13.2831 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5373,7 @@
 			)
 		)
 	)
-	(global_label "GP11 - Pin 10 RST"
+	(global_label "GP11 - Pin 11 DC"
 		(shape input)
 		(at 35.56 105.41 180)
 		(fields_autoplaced yes)
@@ -5385,7 +5385,7 @@
 		)
 		(uuid "ce19ed7c-eb4a-4f2f-aa73-57c61d848614")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.2831 105.41 0)
+			(at 14.1902 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
