@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "a03b232e-bbf4-4c47-a930-a77d53fe4ba2")
 	(paper "A4")
+	(title_block
+		(title "Battery Display")
+	)
 	(lib_symbols
 		(symbol "MCU_Module:RaspberryPi_Pico"
 			(pin_names
