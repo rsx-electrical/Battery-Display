@@ -1023,6 +1023,230 @@
 			)
 			(embedded_fonts no)
 		)
+<<<<<<< Updated upstream
+=======
+		(symbol "SS2040FL_R1_00001_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR"
+				(at 5.08 4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SS2040FL_R1_00001"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS2020FL_SERIES.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIODE SCHOTTKY 40V 2A SOD123FL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DPN" "3757-SS2040FL_R1_00001CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SS2040FL_R1_00001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panjit International Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SS2040FL_R1_00001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CR_R1_00001_PNJ CR_R1_00001_PNJ-M CR_R1_00001_PNJ-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS2040FL_R1_00001_1_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+>>>>>>> Stashed changes
 		(symbol "power:+15V"
 			(power)
 			(pin_numbers
@@ -4103,6 +4327,7 @@
 			)
 			(embedded_fonts no)
 		)
+<<<<<<< Updated upstream
 		(symbol "rsx_diodes:SS2040FL_R1_00001"
 			(pin_names
 				(offset 0.254)
@@ -4305,6 +4530,8 @@
 			)
 			(embedded_fonts no)
 		)
+=======
+>>>>>>> Stashed changes
 		(symbol "rsx_header_screw:Screw_Terminal_2x2.54"
 			(pin_names
 				(offset 1.016)
@@ -4970,12 +5197,15 @@
 		(uuid "180d78d9-8905-4b85-a6ce-bc9f6cc05116")
 	)
 	(junction
+<<<<<<< Updated upstream
 		(at 224.79 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2478e1f5-bc82-4d4e-bcea-2cd41181c526")
 	)
 	(junction
+=======
+>>>>>>> Stashed changes
 		(at 185.42 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5030,6 +5260,15 @@
 		(uuid "81d45cd2-1e80-452f-b34b-11edf16e2882")
 	)
 	(junction
+<<<<<<< Updated upstream
+=======
+		(at 224.79 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fe96c53-93f4-491f-8163-ff8681d9b770")
+	)
+	(junction
+>>>>>>> Stashed changes
 		(at 182.88 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5048,6 +5287,15 @@
 		(uuid "9c55900c-8687-46ed-b194-5750bfc12133")
 	)
 	(junction
+<<<<<<< Updated upstream
+=======
+		(at 170.18 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a341ec0d-4cc5-47de-aede-e3cb013f14ae")
+	)
+	(junction
+>>>>>>> Stashed changes
 		(at 190.5 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5084,12 +5332,15 @@
 		(uuid "c5ddb1eb-7655-424a-941e-33ec6b2d4e8e")
 	)
 	(junction
+<<<<<<< Updated upstream
 		(at 170.18 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb8071cf-3a14-4c65-a6d5-43d82335e8bd")
 	)
 	(junction
+=======
+>>>>>>> Stashed changes
 		(at 190.5 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5233,6 +5484,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 170.18 138.43) (xy 170.18 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00411310-e6d0-4d21-9a89-c4b4706f0951")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 166.37 31.75) (xy 170.18 31.75)
 		)
 		(stroke
@@ -5383,6 +5647,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 170.18 138.43) (xy 170.18 140.97)
 		)
 		(stroke
@@ -5393,6 +5658,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 115.57 46.99) (xy 115.57 50.8)
 		)
 		(stroke
@@ -5573,6 +5840,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 224.79 140.97) (xy 224.79 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f637f37-6966-4586-aedf-2aa093fae981")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 252.73 105.41) (xy 255.27 105.41)
 		)
 		(stroke
@@ -5603,6 +5883,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 224.79 140.97) (xy 224.79 138.43)
 		)
 		(stroke
@@ -5613,6 +5894,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 170.18 31.75) (xy 170.18 35.56)
 		)
 		(stroke
@@ -5673,6 +5956,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 170.18 151.13) (xy 170.18 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777b7695-14f5-480d-b2e7-d7b611c215da")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 147.32 107.95) (xy 147.32 125.73)
 		)
 		(stroke
@@ -5723,7 +6019,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 210.82 138.43) (xy 224.79 138.43)
+=======
+			(xy 208.28 138.43) (xy 224.79 138.43)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5903,6 +6203,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 170.18 151.13) (xy 170.18 152.4)
 		)
 		(stroke
@@ -5913,6 +6214,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 170.18 107.95) (xy 182.88 107.95)
 		)
 		(stroke
@@ -5973,7 +6276,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 170.18 138.43) (xy 200.66 138.43)
+=======
+			(xy 170.18 138.43) (xy 198.12 138.43)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -6644,6 +6951,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "rsx_diodes:SS2040FL_R1_00001")
 		(at 170.18 140.97 270)
 		(unit 1)
@@ -6713,6 +7021,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "rsx_misc:M4 PLAIN")
 		(at 30.48 194.31 0)
 		(unit 1)
@@ -7129,6 +7439,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "rsx_diodes:SS2040FL_R1_00001")
 		(at 210.82 138.43 180)
 		(unit 1)
@@ -7198,6 +7509,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "rsx_Transistors:ZXM61N03F")
 		(at 119.38 166.37 90)
 		(unit 1)
@@ -7299,6 +7612,109 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_name "SS2040FL_R1_00001_1")
+		(lib_id "rsx_diodes:SS2040FL_R1_00001")
+		(at 170.18 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ec61738-2f1b-4c87-a204-8d5f076ec784")
+		(property "Reference" "CR1"
+			(at 173.99 144.7799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS2040FL_R1_00001"
+			(at 173.99 147.3199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 170.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS2020FL_SERIES.pdf"
+			(at 170.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 2A SOD123FL"
+			(at 170.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "3757-SS2040FL_R1_00001CT-ND"
+			(at 170.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS2040FL_R1_00001"
+			(at 170.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panjit International Inc."
+			(at 170.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7693a322-4047-41b6-9bd6-78476449761c")
+		)
+		(pin "1"
+			(uuid "b2b0fcd2-c778-4acf-be1c-3f0ea24bafe4")
+		)
+		(instances
+			(project "display"
+				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
+					(reference "CR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_id "rsx_Capacitors:10u")
 		(at 185.42 39.37 0)
 		(unit 1)
@@ -7525,6 +7941,107 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_name "SS2040FL_R1_00001_1")
+		(lib_id "rsx_diodes:SS2040FL_R1_00001")
+		(at 208.28 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27751f6e-e8d9-4df3-b86b-6a2ea519ad82")
+		(property "Reference" "CR5"
+			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SS2040FL_R1_00001"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS2020FL_SERIES.pdf"
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 2A SOD123FL"
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "3757-SS2040FL_R1_00001CT-ND"
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS2040FL_R1_00001"
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panjit International Inc."
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45fb2330-ee34-447a-a18b-3f83d7d8a500")
+		)
+		(pin "1"
+			(uuid "51c86b8d-2267-4e65-a457-7f6e1194367f")
+		)
+		(instances
+			(project ""
+				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
+					(reference "CR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_id "power:GND")
 		(at 182.88 130.81 0)
 		(unit 1)
@@ -7753,6 +8270,109 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_name "SS2040FL_R1_00001_1")
+		(lib_id "rsx_diodes:SS2040FL_R1_00001")
+		(at 182.88 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37ad5f44-839d-4a15-b7a0-bffb6845e168")
+		(property "Reference" "CR2"
+			(at 186.69 113.0299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS2040FL_R1_00001"
+			(at 186.69 115.5699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS2020FL_SERIES.pdf"
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 2A SOD123FL"
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "3757-SS2040FL_R1_00001CT-ND"
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS2040FL_R1_00001"
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panjit International Inc."
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db844554-ba84-4fcc-8b8c-9d2fc8dfaa81")
+		)
+		(pin "1"
+			(uuid "df16b636-bbb4-4395-b6db-bad5b40c35c7")
+		)
+		(instances
+			(project "display"
+				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
+					(reference "CR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_id "power:PWR_FLAG")
 		(at 162.56 39.37 90)
 		(unit 1)
@@ -9071,6 +9691,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "rsx_diodes:SS2040FL_R1_00001")
 		(at 182.88 109.22 270)
 		(unit 1)
@@ -9140,6 +9761,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "power:PWR_FLAG")
 		(at 107.95 24.13 90)
 		(unit 1)
@@ -10235,7 +10858,11 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< Updated upstream
 		(at 170.18 152.4 0)
+=======
+		(at 170.18 153.67 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10244,7 +10871,11 @@
 		(fields_autoplaced yes)
 		(uuid "dcdc5b51-1985-47c7-a89c-9ec7611bf3d4")
 		(property "Reference" "#PWR04"
+<<<<<<< Updated upstream
 			(at 170.18 158.75 0)
+=======
+			(at 170.18 160.02 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10253,7 +10884,11 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< Updated upstream
 			(at 170.18 157.48 0)
+=======
+			(at 170.18 158.75 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10261,7 +10896,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 170.18 152.4 0)
+=======
+			(at 170.18 153.67 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10270,7 +10909,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 170.18 152.4 0)
+=======
+			(at 170.18 153.67 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10279,7 +10922,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< Updated upstream
 			(at 170.18 152.4 0)
+=======
+			(at 170.18 153.67 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
