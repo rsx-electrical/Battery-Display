@@ -5,130 +5,6 @@
 	(uuid "a03b232e-bbf4-4c47-a930-a77d53fe4ba2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_Module:RaspberryPi_Pico"
 			(pin_names
 				(offset 0.762)
@@ -3319,7 +3195,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rsx_Resistors:100R"
+		(symbol "rsx_Resistors:1M"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3337,7 +3213,7 @@
 					)
 				)
 			)
-			(property "Value" "100R"
+			(property "Value" "1M"
 				(at 0 0 90)
 				(effects
 					(font
@@ -3363,7 +3239,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES 100 OHM 1% 1/10W 0603"
+			(property "Description" "RES SMD 1M OHM 1% 1/10W 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3372,7 +3248,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFR" "Stackpole Electronics Inc"
+			(property "MFR" "Panasonic Electronic Components"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3381,7 +3257,7 @@
 					(hide yes)
 				)
 			)
-			(property "DPN" "RMCF0603FT100RCT-ND"
+			(property "DPN" "P1.00MHCT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3390,7 +3266,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "RMCF0603FT100R"
+			(property "MPN" "ERJ-3EKF1004V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3417,7 +3293,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "100R_0_1"
+			(symbol "1M_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -3430,7 +3306,7 @@
 					)
 				)
 			)
-			(symbol "100R_1_1"
+			(symbol "1M_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3470,7 +3346,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rsx_Resistors:1K5"
+		(symbol "rsx_Resistors:249K_0.1%"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3488,7 +3364,7 @@
 					)
 				)
 			)
-			(property "Value" "1K5"
+			(property "Value" "249K_0.1%"
 				(at 0 0 90)
 				(effects
 					(font
@@ -3514,7 +3390,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES 1.5K OHM 1% 1/10W 0603"
+			(property "Description" "RES 249K OHM 1% 1/10W 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3523,7 +3399,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFR" "Stackpole Electronics Inc"
+			(property "MFR" "YAGEO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3532,7 +3408,7 @@
 					(hide yes)
 				)
 			)
-			(property "DPN" "RMCF0603FT1K50CT-ND"
+			(property "DPN" "311-249KHRCT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3541,7 +3417,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "RMCF0603FT1K50"
+			(property "MPN" "RC0603FR-07249KL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3568,7 +3444,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1K5_0_1"
+			(symbol "249K_0.1%_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -3581,7 +3457,7 @@
 					)
 				)
 			)
-			(symbol "1K5_1_1"
+			(symbol "249K_0.1%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4701,229 +4577,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rsx_opamps:INA181A1"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "INA181A1"
-				(at 3.81 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "rsx_packages_TO_SOT:SOT-23-6_DL"
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina181.pdf"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC CURR SENSE 1 CIRCUIT SOT23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFR" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DPN" "296-46634-1-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "INA181A1IDBVT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "current monitor shunt sensor bidirectional"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INA181A1_0_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "INA181A1_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -7.62 90)
-					(length 6.35)
-					(name "REF"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "rsx_voltage_regulation:NCP1117-3.3V"
 			(pin_names
 				(offset 0.254)
@@ -5165,12 +4818,6 @@
 		(uuid "921228fb-892f-44ab-97fb-510810450f50")
 	)
 	(junction
-		(at 39.37 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "978ba37f-d21e-488f-bfa3-83182d587980")
-	)
-	(junction
 		(at 115.57 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5219,12 +4866,6 @@
 		(uuid "cb8071cf-3a14-4c65-a6d5-43d82335e8bd")
 	)
 	(junction
-		(at 60.96 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da0afcdc-11f0-44f4-9815-3693eb070023")
-	)
-	(junction
 		(at 190.5 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5267,10 +4908,6 @@
 		(uuid "50cdbfd6-25fb-478e-9482-885d14d0e2ca")
 	)
 	(no_connect
-		(at 46.99 138.43)
-		(uuid "58f7805b-c76b-4780-885e-aa1c643bb90f")
-	)
-	(no_connect
 		(at 34.29 66.04)
 		(uuid "59b0021c-15a0-44e5-b384-0838f126fa47")
 	)
@@ -5295,6 +4932,10 @@
 		(uuid "743b67de-924e-4911-8817-7c80d2238745")
 	)
 	(no_connect
+		(at 80.01 78.74)
+		(uuid "7a3c5760-9793-4114-b0f8-01bba08dfc7e")
+	)
+	(no_connect
 		(at 255.27 82.55)
 		(uuid "7b54c533-db91-4bfd-a8c3-3361af1bf65c")
 	)
@@ -5305,14 +4946,6 @@
 	(no_connect
 		(at 34.29 63.5)
 		(uuid "83823372-a2d1-43e3-8f7b-0fbf4bd4e95e")
-	)
-	(no_connect
-		(at 80.01 78.74)
-		(uuid "857fecc5-8beb-4a8e-985b-5e2cd107182f")
-	)
-	(no_connect
-		(at 52.07 138.43)
-		(uuid "93b5f3b2-b0df-4eb9-87d1-4163c7ed2dac")
 	)
 	(no_connect
 		(at 255.27 135.89)
@@ -5333,6 +4966,10 @@
 	(no_connect
 		(at 34.29 99.06)
 		(uuid "b9fb917e-843f-461d-aa9b-e0da14586df7")
+	)
+	(no_connect
+		(at 80.01 83.82)
+		(uuid "ba9ee3d6-4fb8-4756-8c34-614e92c2c4ba")
 	)
 	(no_connect
 		(at 34.29 73.66)
@@ -5367,22 +5004,8 @@
 		(uuid "e5adb919-cbd5-4ffb-a002-c85ebbc578cd")
 	)
 	(no_connect
-		(at 46.99 153.67)
-		(uuid "e74a518f-6841-4c70-840d-d1f945c4f42d")
-	)
-	(no_connect
 		(at 255.27 85.09)
 		(uuid "ef008c09-584f-43be-bdf6-d0ede12d7719")
-	)
-	(wire
-		(pts
-			(xy 34.29 143.51) (xy 39.37 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00746e64-b800-4617-a429-232816ce0481")
 	)
 	(wire
 		(pts
@@ -5466,16 +5089,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 148.59) (xy 41.91 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bb3a519-74d2-416e-9e90-7fd332eac37b")
-	)
-	(wire
-		(pts
 			(xy 250.19 125.73) (xy 255.27 125.73)
 		)
 		(stroke
@@ -5536,16 +5149,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 134.62) (xy 60.96 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "301bdcf7-6c48-4c68-b368-cd5afe2e1158")
-	)
-	(wire
-		(pts
 			(xy 170.18 138.43) (xy 170.18 140.97)
 		)
 		(stroke
@@ -5573,16 +5176,6 @@
 			(type default)
 		)
 		(uuid "31effc34-421b-4812-a75e-94296dbd7919")
-	)
-	(wire
-		(pts
-			(xy 60.96 146.05) (xy 57.15 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ba7e93-ae43-45a5-943e-c41cd9f84efd")
 	)
 	(wire
 		(pts
@@ -5646,16 +5239,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 152.4) (xy 38.1 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "466cdcb4-7b70-40cb-8630-47759d35eb43")
-	)
-	(wire
-		(pts
 			(xy 190.5 113.03) (xy 213.36 113.03)
 		)
 		(stroke
@@ -5663,6 +5246,16 @@
 			(type default)
 		)
 		(uuid "468b37b7-1bc6-4b82-a450-e8a5af1b64cb")
+	)
+	(wire
+		(pts
+			(xy 107.95 24.13) (xy 115.57 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fe7db7-3640-4a48-bb91-beb00d6a3708")
 	)
 	(wire
 		(pts
@@ -5693,16 +5286,6 @@
 			(type default)
 		)
 		(uuid "50adbca4-3ba3-4784-99d2-8c4a15da721c")
-	)
-	(wire
-		(pts
-			(xy 60.96 134.62) (xy 60.96 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50f78957-22ed-4535-a6c1-1cb40ea70d68")
 	)
 	(wire
 		(pts
@@ -5796,16 +5379,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 134.62) (xy 45.72 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ebcb4f0-b702-416f-92c8-ffe04ead55bd")
-	)
-	(wire
-		(pts
 			(xy 255.27 118.11) (xy 220.98 118.11)
 		)
 		(stroke
@@ -5883,16 +5456,6 @@
 			(type default)
 		)
 		(uuid "84ba6491-9ebd-4f9d-97ba-53a7db57d0b4")
-	)
-	(wire
-		(pts
-			(xy 41.91 143.51) (xy 39.37 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8796756c-aaa4-4816-a1bd-1ed81907dc4b")
 	)
 	(wire
 		(pts
@@ -6096,16 +5659,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 146.05) (xy 69.85 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1d4bc90-d614-438e-a24c-451a5692c9f2")
-	)
-	(wire
-		(pts
 			(xy 185.42 43.18) (xy 185.42 44.45)
 		)
 		(stroke
@@ -6273,26 +5826,6 @@
 			(type default)
 		)
 		(uuid "f9d91005-ba03-4097-abce-86885ca1903a")
-	)
-	(wire
-		(pts
-			(xy 39.37 143.51) (xy 39.37 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa077cd2-41bc-41d7-9638-8ca97d07c9cf")
-	)
-	(wire
-		(pts
-			(xy 24.13 143.51) (xy 26.67 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbdb2128-6746-44cd-a18b-73f51e49a274")
 	)
 	(wire
 		(pts
@@ -6522,28 +6055,6 @@
 			)
 		)
 	)
-	(global_label "ADC0 - OpAmp"
-		(shape input)
-		(at 80.01 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ba8f1b4d-0c0e-4099-9b62-cb5758787ebd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.7513 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GP19 - Pin 14 SDA"
 		(shape input)
 		(at 80.01 71.12 0)
@@ -6650,28 +6161,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC0 - OpAmp"
-		(shape input)
-		(at 69.85 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fe722bb6-5063-493f-9c94-6739dc6e22bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.5913 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8354,6 +7843,103 @@
 		)
 	)
 	(symbol
+		(lib_id "rsx_Resistors:249K_0.1%")
+		(at 115.57 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76cff1ed-3395-4bdb-9fae-6f7a65550c14")
+		(property "Reference" "R3"
+			(at 118.11 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "249K_0.1%"
+			(at 118.11 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 113.792 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 249K OHM 1% 1/10W 0603"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "YAGEO"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "311-249KHRCT-ND"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07249KL"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e51e2c14-1ed4-40e7-a9d8-3750381704e6")
+		)
+		(pin "2"
+			(uuid "2c3271f8-439f-465f-aacd-f137252c4d0a")
+		)
+		(instances
+			(project ""
+				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rsx_Capacitors:1u")
 		(at 217.17 118.11 90)
 		(unit 1)
@@ -8442,73 +8028,6 @@
 			(project ""
 				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 24.13 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a0382b5-6afb-478d-9ebd-3c773096cbb2")
-		(property "Reference" "#PWR014"
-			(at 27.94 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+16V"
-			(at 20.32 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 24.13 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "560798a1-35a5-4e8b-b15c-2b7f5db0c24e")
-		)
-		(instances
-			(project "display"
-				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8708,113 +8227,6 @@
 			(project "display"
 				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rsx_opamps:INA181A1")
-		(at 49.53 146.05 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a19fc87-28f7-4bc9-b0d0-47cd81dbe605")
-		(property "Reference" "U1"
-			(at 49.53 153.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA181A1"
-			(at 52.832 150.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rsx_packages_TO_SOT:SOT-23-6_DL"
-			(at 50.8 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina181.pdf"
-			(at 53.34 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC CURR SENSE 1 CIRCUIT SOT23-6"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Texas Instruments"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "296-46634-1-ND"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "INA181A1IDBVT"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "bb8e05f0-1e6d-4f9a-9723-dcf73406e376")
-		)
-		(pin "6"
-			(uuid "e98b3d1c-61fb-4d50-8d76-0fac61f8e950")
-		)
-		(pin "4"
-			(uuid "78aff3fe-4d9d-472e-bdd6-6db7f7652bca")
-		)
-		(pin "3"
-			(uuid "81cdc4be-d9e7-4f6b-a8a7-3c0c4dea6cff")
-		)
-		(pin "2"
-			(uuid "d50b7842-e0e1-4dda-8110-94392bf08469")
-		)
-		(pin "1"
-			(uuid "cd7cb4af-0aa9-42db-9ada-4aac0ecc8b3c")
-		)
-		(instances
-			(project ""
-				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9142,101 +8554,6 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:330R")
-		(at 49.53 134.62 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ff6d532-b621-42bc-868d-cba0c2c615ef")
-		(property "Reference" "R6"
-			(at 49.784 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "300R"
-			(at 49.784 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
-			(at 49.53 136.398 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 330 OHM 1% 1/10W 0603"
-			(at 49.53 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 49.53 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RMCF0603FT330RCT-ND"
-			(at 49.53 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT330R"
-			(at 49.53 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80d9d7b1-d7d1-4011-a593-41049e543bd5")
-		)
-		(pin "2"
-			(uuid "8027b710-7a38-432a-963f-427c90f309f3")
-		)
-		(instances
-			(project "display"
-				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "rsx_diodes:SS2040FL_R1_00001")
 		(at 182.88 109.22 270)
 		(unit 1)
@@ -9307,7 +8624,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 115.57 24.13 90)
+		(at 107.95 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9316,7 +8633,7 @@
 		(fields_autoplaced yes)
 		(uuid "a99d4c3b-c3dc-41d1-9ea8-0043f3d6206c")
 		(property "Reference" "#FLG02"
-			(at 113.665 24.13 0)
+			(at 106.045 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9325,7 +8642,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 111.76 24.1299 90)
+			(at 104.14 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9334,7 +8651,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 24.13 0)
+			(at 107.95 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9343,7 +8660,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 24.13 0)
+			(at 107.95 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +8669,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 115.57 24.13 0)
+			(at 107.95 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9367,72 +8684,6 @@
 			(project ""
 				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 152.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae05b5b7-2719-4771-b19a-5f8572f5d89c")
-		(property "Reference" "#PWR020"
-			(at 38.1 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9cfc35e3-25c7-492e-bac5-d2b261d298c9")
-		)
-		(instances
-			(project "display"
-				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10045,76 +9296,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 115.57 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5b5df8d-638d-46c7-87d8-7426d494f600")
-		(property "Reference" "R3"
-			(at 118.11 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "390R"
-			(at 118.11 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.792 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9a429f9-c97b-4437-9120-4b605c5ef9ee")
-		)
-		(pin "2"
-			(uuid "c160da69-4807-4993-baab-7f16a4624460")
-		)
-		(instances
-			(project ""
-				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+15V")
 		(at 152.4 31.75 0)
 		(unit 1)
@@ -10242,103 +9423,6 @@
 			(project "display"
 				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rsx_Resistors:1K5")
-		(at 115.57 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd317952-46cf-4ca6-9cba-67ae11238644")
-		(property "Reference" "R8"
-			(at 118.11 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K5"
-			(at 118.11 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
-			(at 113.792 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 1.5K OHM 1% 1/10W 0603"
-			(at 115.57 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 115.57 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RMCF0603FT1K50CT-ND"
-			(at 115.57 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT1K50"
-			(at 115.57 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "079f7af1-82e1-4bd3-a023-c26378711675")
-		)
-		(pin "1"
-			(uuid "326f58c8-ebe9-4128-848f-08eaf29cefee")
-		)
-		(instances
-			(project ""
-				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10536,101 +9620,6 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:100R")
-		(at 30.48 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbae0a0f-838d-4f33-ade4-098112a664a2")
-		(property "Reference" "R7"
-			(at 30.48 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K6"
-			(at 30.48 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
-			(at 30.48 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 100 OHM 1% 1/10W 0603"
-			(at 30.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 30.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RMCF0603FT100RCT-ND"
-			(at 30.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT100R"
-			(at 30.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23e33a02-06fd-4c74-a899-01f8cc1783b6")
-		)
-		(pin "2"
-			(uuid "ed591411-d03d-4933-8372-0e1d90852dc6")
-		)
-		(instances
-			(project ""
-				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 170.18 152.4 0)
 		(unit 1)
@@ -10691,6 +9680,103 @@
 			(project "display"
 				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:1M")
+		(at 115.57 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df817af4-4087-427b-9378-10c8c3141239")
+		(property "Reference" "R2"
+			(at 118.11 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 118.11 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 113.792 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1M OHM 1% 1/10W 0603"
+			(at 115.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 115.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P1.00MHCT-ND"
+			(at 115.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3EKF1004V"
+			(at 115.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52536118-a0b1-4688-9ddd-35379616d6dd")
+		)
+		(pin "2"
+			(uuid "5a81b124-cbc9-42e2-8909-42d90881f62a")
+		)
+		(instances
+			(project ""
+				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11372,16 +10458,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 80.01 83.82 270)
+		(at 80.01 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fed33313-e6b9-48a6-8af7-15319a926992")
 		(property "Reference" "#PWR018"
-			(at 76.2 83.82 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11390,7 +10475,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 83.82 83.8199 90)
+			(at 83.82 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11399,7 +10484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 83.82 0)
+			(at 80.01 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11408,7 +10493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 83.82 0)
+			(at 80.01 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11417,7 +10502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 80.01 83.82 0)
+			(at 80.01 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
