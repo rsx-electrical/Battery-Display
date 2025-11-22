@@ -1,4 +1,4 @@
-27154235996843416
+27163041715086388
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106344,6 +106344,13 @@ Varistor VF
 2
 2
 rsx_HID
+2-1825910-7
+
+2-1825910-7 
+0
+4
+4
+rsx_HID
 100DP1T1B1M2QEH
 100DP1T1B1M2QEH
 Switch
@@ -106431,6 +106438,13 @@ rsx_SIP
 8-SIP Module, 7 Leads
 muRata MEJ1DxxxxSC, 19.5x9.8x12.5mm, 5.2kVDC Isolated, 1W, dual output, SIP package style, https://power.murata.com/data/power/ncl/kdc_mej1.pdf
 muRata MEJ1D DCDC-Converter
+0
+7
+7
+rsx_SIP
+8-SIP SPBW06F-15
+
+SPBW06F-15 
 0
 7
 7
@@ -106672,6 +106686,13 @@ Through hole socket strip THT 1x12 2.54mm single row
 0
 12
 12
+rsx_headers
+JST_B7B-XH-A
+
+
+0
+7
+7
 rsx_headers
 JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical
 JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
@@ -107365,6 +107386,13 @@ SOP65P640X120-14N
 0
 14
 14
+rsx_logic
+SOT95P280X145-5N
+
+
+0
+5
+5
 rsx_microcontroller
 ST_NUCLEO-F767ZI
 
@@ -107547,6 +107575,13 @@ SOP65P640X120-14N
 0
 14
 14
+rsx_misc
+SPU01M15
+SPU01M-15-2
+Power Supply
+0
+5
+5
 rsx_misc
 TestPoint_Pad_D1.0mm
 SMD pad as test Point, diameter 1.0mm
