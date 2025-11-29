@@ -6248,7 +6248,7 @@
 		)
 		(uuid "be5113b6-0421-4271-8b34-d1ed6ba55a0d")
 	)
-	(label "vcc"
+	(label "12-16V"
 		(at 39.37 139.7 270)
 		(effects
 			(font
@@ -6258,7 +6258,7 @@
 		)
 		(uuid "c04d2bee-511a-4bff-ba9b-76dce4d8d4cb")
 	)
-	(label "vcc"
+	(label "12-16V"
 		(at 195.58 151.13 0)
 		(effects
 			(font
