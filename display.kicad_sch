@@ -10870,7 +10870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6c815fc-d44a-476a-9eb2-2bfe3a30e11b")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 160.02 34.036 0)
 			(effects
 				(font
@@ -10950,7 +10950,7 @@
 		(instances
 			(project "display"
 				(path "/a03b232e-bbf4-4c47-a930-a77d53fe4ba2"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
