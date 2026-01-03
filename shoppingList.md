@@ -5,9 +5,9 @@
 
 1 24 pin FPC connector [2-84952-4](https://www.digikey.ca/en/products/detail/te-connectivity-amp-connectors/2-84952-4/2180527) <br>
 OR 24 pin FPC connector as specified in datasheet [FH34SRJ-24S-0-5SH-99](https://www.digikey.ca/en/products/detail/hirose-electric-co-ltd/FH34SRJ-24S-0-5SH-99/5156028) <br>
+OR this connector might be better cuz cheaper [68712414022](https://www.digikey.ca/en/products/detail/würth-elektronik/68712414022/2811237) <br>
 
 3 Schotky :[SS2040FL_R1_00001](https://www.digikey.ca/en/products/detail/panjit-international-inc/SS2040FL-R1-00001/14660034)<br>
-1 [RTF025N03TL](https://www.digikey.ca/en/products/detail/rohm-semiconductor/RTF025N03TL/721622)<br>
 7 1uF/25V<br>
 1 1uF/6.3V<br>
 1 0.1uF/16V<br>
@@ -22,6 +22,4 @@ NMOS opt2: [785-1005-1-ND](https://mm.digikey.com/Volume0/opasdata/d220001/media
 1 raspberry pi pico --> 3.3V power + logic; 65Mhz max spi <br>
 3.3V 1A LDO: [NCP1117LPST33T3GOSCT-ND](https://www.digikey.ca/en/products/detail/onsemi/NCP1117LPST33T3G/2194024) <br>
  
-EPD library (https://github.com/PervasiveDisplays/Pervasive_Wide_Small)
-Also EPD library (https://github.com/PervasiveDisplays/PDLS_Common)
-button 2-1825910-7
+EPD library (https://github.com/peterhinch/micropython-epaper?utm_source=chatgpt.com)
