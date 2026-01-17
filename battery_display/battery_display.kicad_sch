@@ -4967,6 +4967,10 @@
 		(uuid "05c7bd32-d3d6-4802-9cd8-5b6b04d6a75b")
 	)
 	(no_connect
+		(at 36.83 76.2)
+		(uuid "065fe3d6-a18e-4e4e-9a37-a7e7b776e174")
+	)
+	(no_connect
 		(at 82.55 76.2)
 		(uuid "06f8307b-ff72-4ccf-8f61-c9d385b3fdd2")
 	)
@@ -4987,8 +4991,8 @@
 		(uuid "271e7117-8d40-489c-a225-fc4591d205c3")
 	)
 	(no_connect
-		(at 82.55 81.28)
-		(uuid "435394f3-9bcd-4f8d-a3d7-f7494e56c3ea")
+		(at 36.83 73.66)
+		(uuid "42cfc390-04d0-4218-8d89-8dfe7bfc68e4")
 	)
 	(no_connect
 		(at 36.83 106.68)
@@ -5065,10 +5069,6 @@
 	(no_connect
 		(at 227.33 45.72)
 		(uuid "ed3fec6a-06f7-4eb8-8369-58d06924f141")
-	)
-	(no_connect
-		(at 82.55 83.82)
-		(uuid "f6b25c8b-74be-47ed-8c42-630f38e3640a")
 	)
 	(no_connect
 		(at 64.77 45.72)
@@ -5250,6 +5250,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 83.82) (xy 99.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b104c64-ab1f-4c34-8716-6addb476d76b")
+	)
+	(wire
+		(pts
 			(xy 29.21 255.27) (xy 29.21 250.19)
 		)
 		(stroke
@@ -5387,26 +5397,6 @@
 			(type default)
 		)
 		(uuid "4e314fd7-1da9-43dc-9c79-9058c288c293")
-	)
-	(wire
-		(pts
-			(xy 20.32 76.2) (xy 36.83 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d620b1d-5546-4107-84eb-7f5fd47a9f74")
-	)
-	(wire
-		(pts
-			(xy 20.32 73.66) (xy 36.83 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dfb3a5a-02eb-4bc6-95d0-2513f768abba")
 	)
 	(wire
 		(pts
@@ -5617,6 +5607,16 @@
 			(type default)
 		)
 		(uuid "7e343cf3-8578-4fb8-b3fe-276272410d93")
+	)
+	(wire
+		(pts
+			(xy 82.55 81.28) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825d3d46-48c1-4c07-88a1-81019bc0f686")
 	)
 	(wire
 		(pts
@@ -6098,6 +6098,16 @@
 		)
 		(uuid "37521994-0bba-4dbd-8abf-8f870297d2b0")
 	)
+	(label "SCLK"
+		(at 99.06 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44feb076-17ba-4a01-8a4d-b0cf03472d22")
+	)
 	(label "panelDC"
 		(at 20.32 99.06 0)
 		(effects
@@ -6149,16 +6159,6 @@
 		(uuid "6808fa2a-fc93-4453-9d8b-13d3eda62d89")
 	)
 	(label "SDA"
-		(at 20.32 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76d050f7-57b6-46b2-b173-6490be299227")
-	)
-	(label "SDA"
 		(at 217.17 66.04 0)
 		(effects
 			(font
@@ -6177,6 +6177,16 @@
 			(justify left bottom)
 		)
 		(uuid "84e2c8b5-09b0-4f8d-b86c-25a8232f5cde")
+	)
+	(label "SDA"
+		(at 99.06 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ad7fdfb-4827-4b48-879e-eaf7b13b6d98")
 	)
 	(label "read_voltage"
 		(at 99.06 96.52 180)
@@ -6237,16 +6247,6 @@
 			(justify left bottom)
 		)
 		(uuid "b9ef83ab-383e-4aac-92d1-21e8c0977902")
-	)
-	(label "SCLK"
-		(at 20.32 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be5113b6-0421-4271-8b34-d1ed6ba55a0d")
 	)
 	(label "12-16V"
 		(at 39.37 139.7 270)
