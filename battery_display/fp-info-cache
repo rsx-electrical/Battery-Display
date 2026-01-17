@@ -1,4 +1,4 @@
-27163041715086388
+27198237335333585
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106484,6 +106484,13 @@ XDCR_AT-1224-TWT-5V-2-R
 2
 2
 rsx_capacitors
+CAPC17595_95N_KEM
+
+C0603C104K5RACTU 
+0
+2
+2
+rsx_capacitors
 CP_Radial_D6.3mm_P2.50mm
 CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
 CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
@@ -106679,6 +106686,20 @@ FTSH-105-01-L-DV
 0
 10
 10
+rsx_headers
+CONN6_2604-1106_WAG
+
+2604-1106 
+0
+12
+12
+rsx_headers
+CONN6_2604-3106_WAG
+
+2604-3106 
+0
+12
+12
 rsx_headers
 ESQ-12POS
 Through hole straight socket strip, 1x12, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
@@ -107058,12 +107079,19 @@ Through Hole Mount Test Points
 1
 1
 rsx_headers
-Wago_2716-102
+WP-SHFU_7461098
 
-2716-102 
+
 0
-16
-16
+25
+25
+rsx_headers
+Wago_2716-103
+
+2716-103 
+0
+12
+12
 rsx_headers
 Wurth_691321300002
 
@@ -107092,6 +107120,20 @@ Wurth_0039301100
 0
 10
 10
+rsx_headers
+Wurth_64900221122
+
+
+0
+2
+2
+rsx_headers
+Wurth_64900429522
+Connector Header Through Hole, Right Angle 4 position 0.165" (4.20mm)
+
+0
+4
+4
 rsx_headers
 Wurth_61200821621
 Wurth 8P IDC
@@ -107170,12 +107212,33 @@ TC2030-IDC-NL
 6
 6
 rsx_headers_screw
+691131710006
+
+
+0
+6
+6
+rsx_headers_screw
+691242710009
+
+
+0
+9
+9
+rsx_headers_screw
 Amphenol_VP0265540000G
 
 
 0
 4
 2
+rsx_headers_screw
+CONN_1017491
+
+1017503 
+0
+4
+4
 rsx_headers_screw
 Keystone_7792
 
@@ -107268,6 +107331,13 @@ PhoenixContact PTSM0.5 4 2.5mm vertical SMD spring clamp terminal block connecto
 6
 4
 rsx_headers_screw
+WP-SHFU_7461096
+
+
+0
+9
+9
+rsx_headers_screw
 Wurth 7461108
 
 
@@ -107288,6 +107358,13 @@ terminal block bornier2
 0
 2
 2
+rsx_headers_screw
+Wurth_691210910003
+3 POS 2.54 MM TERMINAL BLOCK, HORIZONT
+
+0
+3
+3
 rsx_headers_screw
 Wurth_691210910004
 2.54-4P, 4 pins, pitch 2.54mm, size 10.7x6.5mm, drill diameter 1.3mm, pad diameter 2mm
@@ -107603,6 +107680,13 @@ ltc6810Adaptor-F
 0
 36
 36
+rsx_misc
+rsx_logo
+
+
+0
+0
+0
 rsx_modules
 ARDUINO_A000067
 
@@ -107638,6 +107722,13 @@ ST Morpho Connector 144 STLink
 0
 148
 148
+rsx_opamps
+SOIC127P599X175-8N
+
+
+0
+8
+8
 rsx_opamps
 SOIC_597IDT_TEX
 
@@ -108073,6 +108164,27 @@ Potentiometer vertical Bourns PTV09A-1 Single
 3
 3
 rsx_resistors
+RC0603N_YAG
+
+RC0603FR-075K1L 
+0
+2
+2
+rsx_resistors
+RC0805N_PAN
+
+ERA-6AEB304V 
+0
+2
+2
+rsx_resistors
+RES_ERA3VRW2201V
+
+
+0
+2
+2
+rsx_resistors
 R_0603_1608Metric
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
@@ -108142,3 +108254,10 @@ ACS71240LLCBTR-030B3
 0
 8
 8
+rsx_sensors
+XDCR_ACS758LCB-050U-PFF-T
+
+
+0
+37
+37

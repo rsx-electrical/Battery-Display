@@ -1433,10 +1433,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rsx_Capacitors:0u1_0402"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "rsx_Capacitors:100n"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1444,33 +1441,42 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 3.81 3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "0u1"
-				(at 0.635 -2.54 0)
+			(property "Value" "100n"
+				(at 3.81 -3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-				(at 0.9652 -3.81 0)
+			(property "Footprint" "CAPC17595_95N_KEM"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1479,7 +1485,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(property "DPN" "399-C0603C104K5RACTUCT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1488,7 +1494,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFR" "Samsung Electro-Mechanics"
+			(property "MPN" "C0603C104K5RACTU"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1497,7 +1503,7 @@
 					(hide yes)
 				)
 			)
-			(property "DPN" "1276-1043-1-ND"
+			(property "ki_keywords" "C0603C104K5RACTU"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1506,7 +1512,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CL05A104KA5NNNC"
+			(property "ki_fp_filters" "CAPC17595_95N_KEM CAPC17595_95N_KEM-M CAPC17595_95N_KEM-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1515,31 +1521,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0u1_0402_0_1"
+			(symbol "100n_1_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy 2.54 0) (xy 3.4798 0)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1548,22 +1536,44 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "0u1_0402_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1578,10 +1588,96 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "100n_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4837,6 +4933,12 @@
 		(uuid "38e1ca75-16a4-46e9-8cf9-cf2a6248d352")
 	)
 	(junction
+		(at 125.73 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dde6667-bc2d-43da-b0d9-0b56b2c35ae5")
+	)
+	(junction
 		(at 69.85 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4865,12 +4967,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "691c765a-58ea-4f7c-9aee-8e3833605923")
-	)
-	(junction
-		(at 125.73 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6990581f-6e1e-450e-ba05-cabdbf3b9f02")
 	)
 	(junction
 		(at 173.99 73.66)
@@ -5650,7 +5746,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 91.44) (xy 135.89 91.44)
+			(xy 115.57 91.44) (xy 125.73 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5690,6 +5786,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 91.44) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901a5c04-f4a0-4bcb-88b7-7f39c742b684")
+	)
+	(wire
+		(pts
 			(xy 173.99 76.2) (xy 193.04 76.2)
 		)
 		(stroke
@@ -5697,16 +5803,6 @@
 			(type default)
 		)
 		(uuid "9342eeef-6271-4db0-9ca3-b9c820f5cc07")
-	)
-	(wire
-		(pts
-			(xy 115.57 91.44) (xy 125.73 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c9eef9-252e-4c10-966b-e2733d9db2c8")
 	)
 	(wire
 		(pts
@@ -7894,103 +7990,6 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Capacitors:0u1_0402")
-		(at 125.73 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68787a7b-09a9-4159-9c09-4df8fb1a70e1")
-		(property "Reference" "C10"
-			(at 129.54 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 129.54 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 126.6952 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Samsung Electro-Mechanics"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1043-1-ND"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05A104KA5NNNC"
-			(at 125.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d5df789-c951-4235-ab6b-66543c66aaa3")
-		)
-		(pin "2"
-			(uuid "e15a11f4-1eca-499a-b94b-9fa0375c6183")
-		)
-		(instances
-			(project ""
-				(path "/9c37534e-0246-46b3-81ad-6273e0189fcc"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 227.33 96.52 270)
 		(unit 1)
@@ -10059,6 +10058,96 @@
 			(project "battery_display"
 				(path "/9c37534e-0246-46b3-81ad-6273e0189fcc"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Capacitors:100n")
+		(at 125.73 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed40f041-e2e2-4a22-b11c-5714f32f373d")
+		(property "Reference" "C14"
+			(at 129.54 93.9799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 129.54 96.5199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAPC17595_95N_KEM"
+			(at 125.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 125.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 125.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-C0603C104K5RACTUCT-ND"
+			(at 125.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 125.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a10e93e3-1001-490e-8709-8086737c649d")
+		)
+		(pin "1"
+			(uuid "80dc108d-a3bc-4ef5-85f1-42a218add9e8")
+		)
+		(instances
+			(project ""
+				(path "/9c37534e-0246-46b3-81ad-6273e0189fcc"
+					(reference "C14")
 					(unit 1)
 				)
 			)
