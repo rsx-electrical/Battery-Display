@@ -1,0 +1,13 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"SRP3012TA-100M1";"IND_SRP3012TA_BRN";1;"10uH";;;
+2;"Q1,Q2";"SOT-23";2;"ZXM61N03F";;;
+3;"C1,C3,C4,C12,C8,C9,C7,C2,C10,C5,C11,C13,C6";"C_0805_2012Metric";13;"1u";;;
+4;"R2,R1";"R_1206_3216Metric";2;"0.47R";;;
+5;"J1";"HRS_FH34SRJ-24S-0.5SH_99_";1;"FH34SRJ-24S-0.5SH_99_";;;
+6;"R3";"R_0603_1608Metric";1;"1M";;;
+7;"VR1";"SOT-223-3_TabPin2";1;"NCP1117-3.3V";;;
+8;"SW1";"FSMSMTR";1;"Button";;;
+9;"A1";"RaspberryPi_Pico_Common_Unspecified";1;"RaspberryPi_Pico";;;
+10;"J2";"Molex_0398800302";1;"Screw_Terminal_2x5.08";;;
+11;"R5";"R_0603_1608Metric";1;"220K";;;
+12;"CR1,CR4,CR2";"Nexperia_CFP3_SOD-123W";3;"SS2040FL_R1_00001";;;
