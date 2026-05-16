@@ -33,19 +33,18 @@ spi = SPI(
 
 # -----------------------------
 # Display size
-# Change these if your panel is different
 # Common 2.13 inch e-paper: 250 x 122
 # -----------------------------
 WIDTH  = 250
 HEIGHT = 122
 
-# For 1-bit display: 1 bit per pixel
-buf = bytearray((WIDTH * HEIGHT) // 8)
-fb = framebuf.FrameBuffer(buf, WIDTH, HEIGHT, framebuf.MONO_HLSB)
+# 1-bit framebuffer must be byte-aligned
+BYTE_WIDTH = (WIDTH + 7) // 8   # ceil(WIDTH / 8)
 
+buf = bytearray(BYTE_WIDTH * HEIGHT)
 
-def digital_write(pin, value):
-    pin.value(value)
+# Internally framebuffer width is 256 pixels because 32 bytes * 8 bits = 256
+fb = framebuf.FrameBuffer(buf, BYTE_WIDTH * 8, HEIGHT, framebuf.MONO_HLSB)
 
 
 def send_command(cmd):
@@ -62,7 +61,7 @@ def send_data(data):
     if isinstance(data, int):
         spi.write(bytearray([data]))
     else:
-        spi.write(bytearray(data))
+        spi.write(data)
 
     CS.value(1)
 
@@ -109,7 +108,7 @@ def init_display():
     # Set RAM X address range
     send_command(0x44)
     send_data(0x00)
-    send_data((WIDTH // 8) - 1)
+    send_data(BYTE_WIDTH - 1)
 
     # Set RAM Y address range
     send_command(0x45)
@@ -126,10 +125,11 @@ def init_display():
     send_command(0x18)
     send_data(0x80)
 
-    # Set RAM X/Y pointer
+    # Set RAM X pointer
     send_command(0x4E)
     send_data(0x00)
 
+    # Set RAM Y pointer
     send_command(0x4F)
     send_data(0x00)
     send_data(0x00)
@@ -138,7 +138,7 @@ def init_display():
 
 
 def display_frame():
-    # Set RAM pointer to beginning
+    # Reset RAM pointer
     send_command(0x4E)
     send_data(0x00)
 
