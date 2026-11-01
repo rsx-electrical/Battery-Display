@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "NHD-0216 KiCad") (type "KiCad") (uri "C:/Users/ahm7s/Downloads/NHD-0216K1Z-FSW-FBW-L/KiCad") (options "") (descr ""))
+	(lib (name "symbols_and_footprints") (type "KiCad") (uri "${KIPRJMOD}/symbols-and-footprints") (options "") (descr ""))
+)

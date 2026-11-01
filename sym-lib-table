@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "NHD-0216K1Z-FSW-FBW-L") (type "KiCad") (uri "C:/Users/ahm7s/Downloads/NHD-0216K1Z-FSW-FBW-L/KiCad/NHD-0216K1Z-FSW-FBW-L.kicad_sym") (options "") (descr ""))
+	(lib (name "npn") (type "KiCad") (uri "D:/Kicad battery stuff/Regulator/KiCad/npn.kicad_sym") (options "") (descr ""))
+)
